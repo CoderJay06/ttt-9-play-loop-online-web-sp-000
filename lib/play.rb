@@ -37,6 +37,7 @@ end
 
 # Define your play method below
 def play(board)
+<<<<<<< HEAD
   playing = 0 
   loop do 
     playing += 1 
@@ -45,6 +46,11 @@ def play(board)
     else
       break
     end
+=======
+  playing = 0
+  while playing <= board.length 
+    turn(board)
+>>>>>>> 8619dcbd4e6f7a474fe6aa4a9eb5117bf2090a56
   end
 end
     
